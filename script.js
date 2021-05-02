@@ -26,7 +26,7 @@ function getWeather(city) {
         tempEl.text('Temperature: ' + temp + '°F');
         humidEl.text('Humidity: ' + weather.main.humidity + '%');
         windEl.text('Windspeed: ' + weather.wind.speed + 'mph');
-        $('#forecastHeader').text('5-Day Forecast:');
+        $('#forecastHeader').text('Five-Day Forecast:');
 
         var lon = weather.coord.lon;
         var lat = weather.coord.lat;
